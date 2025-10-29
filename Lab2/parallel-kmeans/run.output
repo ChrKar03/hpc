@@ -1,0 +1,29 @@
+Building seq_main and omp_main...
+icx -ffast-math -DNDEBUG  -I. -c seq_main.c
+icx -ffast-math -DNDEBUG  -I. -c seq_kmeans.c
+icx -ffast-math -DNDEBUG  -I. -c wtime.c
+icx -ffast-math -DNDEBUG  -I.   -c -o file_io.o file_io.c
+icx -ffast-math -DNDEBUG  -I.   -c -o util.o util.c
+icx -ffast-math -DNDEBUG -o seq_main seq_main.o seq_kmeans.o wtime.o file_io.o util.o 
+icx -ffast-math -DNDEBUG  -I. -qopenmp -c omp_main.c
+icx -ffast-math -DNDEBUG  -I. -qopenmp -c omp_kmeans.c
+icx -ffast-math -DNDEBUG -qopenmp -o omp_main omp_main.o omp_kmeans.o wtime.o file_io.o util.o 
+Running sequential baseline on Image_data/texture17695.bin (K=2000) for 10 run(s)...
+Running OpenMP version with 1 thread(s) for 10 run(s)...
+Running OpenMP version with 4 thread(s) for 10 run(s)...
+Running OpenMP version with 8 thread(s) for 10 run(s)...
+Running OpenMP version with 14 thread(s) for 10 run(s)...
+Running OpenMP version with 28 thread(s) for 10 run(s)...
+Running OpenMP version with 56 thread(s) for 10 run(s)...
+
+threads    avg_time(s)     std_dev(s)      membership                max_centroid_delta  
+seq        3.49522         -               baseline                  -                   
+1          3.39915         0.0609683       match                     0                   
+4          1.04176         0.0399485       match                     1e-06               
+8          0.59374         0.0159941       match                     1e-06               
+14         0.36177         0.0144626       match                     1e-06               
+28         0.23895         0.047552        match                     1e-06               
+56         0.19304         0.0104852       match                     1e-06               
+
+Log files stored in: /srv/homes/chrkaragiannis/parallel-kmeans/runs/logs
+Other run artifacts (cluster & membership copies) stored in: /srv/homes/chrkaragiannis/parallel-kmeans/runs/artifacts

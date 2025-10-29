@@ -3,39 +3,46 @@
 
 #Add any executable you want to be created here.
 EXECUTABLES	= sobel_orig \
-			  sobe_loop_interchange \
-			  sobe_loop_unrolling \
-			  sobe_loop_fusion \
-			  sobe_inlining \
-			  sobe_loop_invariant \
-			  sobe_cse \
-			  sobe_strength_reduction \
-			  sobe_compiler_assist
+		      sobel_loop_interchange \
+			  sobel_loop_unrolling \
+			  sobel_loop_fusion \
+			  sobel_function_inlining \
+			  sobel_loop_invariant \
+			  sobel_cse \
+			  sobel_strength_elimination \
+			  sobel_compiler_assist
+
+EXECUTABLES_FAST = ${EXECUTABLES:%=%_fast}
 
 #This is the compiler to use
 CC = icx
 
 #These are the flags passed to the compiler. Change accordingly
-CFLAGS ?= -Wall
+CFLAGS = -Wall -O0
+CFLAGS_FAST = -Wall -ffast-math
 
 #These are the flags passed to the linker. Nothing in our case
 LDFLAGS = -lm
 
 
 # make all will create all executables
-all: $(EXECUTABLES)
+all: $(EXECUTABLES) $(EXECUTABLES_FAST)
 
 # This is the rule to create any executable from the corresponding .c 
 # file with the same name.
 %: %.c
 	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
+%_fast: %.c
+	$(CC) $(CFLAGS_FAST) $< -o $@ $(LDFLAGS)
+
 # make clean will remove all executables, jpg files and the 
 # output of previous executions.
 clean:
-	rm -f $(EXECUTABLES) *.jpg output_sobel.grey
+	rm -f $(EXECUTABLES) $(EXECUTABLES_FAST) *.jpg output_sobel.grey
 
 # make image will create the output_sobel.jpg from the output_sobel.grey. 
 # Remember to change this rule if you change the name of the output file.
 image: output_sobel.grey
 	convert -depth 8 -size 4096x4096 GRAY:output_sobel.grey output_sobel.jpg 
+

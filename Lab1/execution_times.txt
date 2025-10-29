@@ -1,0 +1,21 @@
+Standard Executables:
+sobel_orig: 1.570727 ± 0.020009972538711805 seconds
+sobel_loop_interchange: 1.154482 ± 0.007609353191960523 seconds
+sobel_loop_unrolling: 1.187668 ± 0.00803644921591618 seconds
+sobel_loop_fusion: 1.274547 ± 0.005209982821468798 seconds
+sobel_function_inlining: 0.7481686 ± 0.009298710235296073 seconds
+sobel_loop_invariant: 0.764864 ± 0.005057292299244718 seconds
+sobel_cse: 0.8152975 ± 0.011476048773423703 seconds
+sobel_strength_elimination: 0.22439179999999997 ± 0.0024995155050529312 seconds
+sobel_compiler_assist: 0.22404600000000002 ± 0.0022089601173402836 seconds
+
+Fast Executables:
+sobel_orig_fast: 0.4381012 ± 0.04226095420077499 seconds
+sobel_loop_interchange_fast: 0.1019892 ± 0.001304504794931777 seconds
+sobel_loop_unrolling_fast: 0.1608715 ± 0.0011369149704353462 seconds
+sobel_loop_fusion_fast: 0.10705970000000001 ± 0.0011990246077541547 seconds
+sobel_function_inlining_fast: 0.1663259 ± 0.003021229698318222 seconds
+sobel_loop_invariant_fast: 0.1663233 ± 0.0021178362566544174 seconds
+sobel_cse_fast: 0.15556589999999998 ± 0.0020045900553479767 seconds
+sobel_strength_elimination_fast: 0.09117564 ± 0.0015046122910570673 seconds
+sobel_compiler_assist_fast: 0.031952180000000004 ± 0.0008809755385934391 seconds

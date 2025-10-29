@@ -1,0 +1,150 @@
+=== OMP T=1 RUN 1 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0250 sec
+Computation timing =     3.4517 sec
+=== OMP T=1 RUN 2 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0229 sec
+Computation timing =     3.4153 sec
+=== OMP T=1 RUN 3 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0239 sec
+Computation timing =     3.3762 sec
+=== OMP T=1 RUN 4 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0248 sec
+Computation timing =     3.4315 sec
+=== OMP T=1 RUN 5 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0228 sec
+Computation timing =     3.4475 sec
+=== OMP T=1 RUN 6 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0217 sec
+Computation timing =     3.3184 sec
+=== OMP T=1 RUN 7 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0226 sec
+Computation timing =     3.3738 sec
+=== OMP T=1 RUN 8 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0216 sec
+Computation timing =     3.3371 sec
+=== OMP T=1 RUN 9 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0228 sec
+Computation timing =     3.3242 sec
+=== OMP T=1 RUN 10 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (OpenMP version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+Threads       = 1
+I/O time           =     0.0239 sec
+Computation timing =     3.5158 sec

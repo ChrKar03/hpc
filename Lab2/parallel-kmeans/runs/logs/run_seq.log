@@ -1,0 +1,140 @@
+=== SEQ RUN 1 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0238 sec
+Computation timing =     3.5075 sec
+=== SEQ RUN 2 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0224 sec
+Computation timing =     3.4588 sec
+=== SEQ RUN 3 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0231 sec
+Computation timing =     3.5021 sec
+=== SEQ RUN 4 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0252 sec
+Computation timing =     3.5332 sec
+=== SEQ RUN 5 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0223 sec
+Computation timing =     3.4674 sec
+=== SEQ RUN 6 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0245 sec
+Computation timing =     3.4926 sec
+=== SEQ RUN 7 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0225 sec
+Computation timing =     3.4196 sec
+=== SEQ RUN 8 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0227 sec
+Computation timing =     3.7304 sec
+=== SEQ RUN 9 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0248 sec
+Computation timing =     3.4140 sec
+=== SEQ RUN 10 ===
+reading data points from file Image_data/texture17695.bin
+selecting the first 2000 elements as initial centers
+Writing coordinates of K=2000 cluster centers to file "Image_data/texture17695.bin.cluster_centres"
+Writing membership of N=17695 data objects to file "Image_data/texture17695.bin.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     Image_data/texture17695.bin
+numObjs       = 17695
+numCoords     = 20
+numClusters   = 2000
+threshold     = 0.0010
+I/O time           =     0.0232 sec
+Computation timing =     3.4266 sec

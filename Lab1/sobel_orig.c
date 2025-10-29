@@ -7,14 +7,14 @@
 #include <time.h>
 #include <errno.h>
 
-#define SIZE	4096
+#define SIZE	    4096
 #define INPUT_FILE	"input.grey"
 #define OUTPUT_FILE	"output_sobel.grey"
 #define GOLDEN_FILE	"golden.grey"
 
 /* The horizontal and vertical operators to be used in the sobel filter */
-char horiz_operator[3][3] = {{-1, 0, 1}, 
-                             {-2, 0, 2}, 
+char horiz_operator[3][3] = {{-1, 0, 1},
+                             {-2, 0, 2},
                              {-1, 0, 1}};
 char vert_operator[3][3] = {{1, 2, 1}, 
                             {0, 0, 0}, 
