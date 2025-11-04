@@ -20,7 +20,6 @@ static void usage(char *argv0, float threshold) {
         "       -n num_clusters: number of clusters (K must > 1)\n"
         "       -t threshold   : threshold value (default %.4f)\n"
         "       -p nproc       : number of OpenMP threads (default: runtime)\n"
-        "       -a             : use atomic updates (default: privatized reductions)\n"
         "       -o             : output timing results (default: no)\n"
         "       -q             : quiet mode\n"
         "       -d             : enable debug mode\n"
@@ -42,7 +41,6 @@ int main(int argc, char **argv) {
            float **clusters;
            float   threshold;
            double  timing, io_timing, clustering_timing;
-           int     use_atomic_updates;
 
     _debug             = 0;
     verbose            = 1;
@@ -53,7 +51,6 @@ int main(int argc, char **argv) {
     filename           = NULL;
     center_filename    = NULL;
     numThreads         = 0;
-    use_atomic_updates = 0;
 
     while ((opt = getopt(argc, argv, "p:i:c:n:t:abdohq")) != EOF) {
         switch (opt) {
@@ -83,9 +80,6 @@ int main(int argc, char **argv) {
                 break;
             case 'd':
                 _debug = 1;
-                break;
-            case 'a':
-                use_atomic_updates = 1;
                 break;
             case 'h':
             default:
@@ -162,7 +156,7 @@ int main(int argc, char **argv) {
     assert(membership != NULL);
 
     if (!omp_kmeans(objects, numCoords, numObjs, numClusters, threshold,
-                    membership, clusters, use_atomic_updates)) {
+                    membership, clusters)) {
         fprintf(stderr, "Error: omp_kmeans failed\n");
         free(objects[0]);
         free(objects);
